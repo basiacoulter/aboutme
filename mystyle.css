@@ -1,0 +1,67 @@
+html, head, body, h1, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #38382B;
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+}
+header {	
+	border-top: 20px solid gold;
+	background: url(images/header-bckgrd.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.masthead-heading,
+.masthead-intro {
+	text-align: center;
+}
+.masthead {
+    padding: 6em 0;
+}
+.masthead-intro {
+	font-size: 1.6em;
+    margin-bottom: 0.1em;
+    color: #FFFFC5;
+}
+.masthead-heading {
+	color: #38382B;
+    margin-top: -0.2em;
+    font-size: 3.6em;
+    text-shadow: 2px 2px 0px #FFFFC5;
+}
+section {
+	width: 60%;
+	margin: 0 auto;
+
+}
+.in-general {
+	padding-top: 3em;
+}
+body p {
+	font-size: 1em;
+	margin-bottom: 20px;
+
+}
+footer {
+	height: 100%;
+	margin-top: 3em;
+	text-align: center;
+	padding: 3em 0;
+	background-color: #636364;
+	color: #FFFFC5;
+}
+footer p {
+	margin: 0;
+}
+footer a {
+	color: #FFFFC5;
+}
+@media all and (max-width: 420px) {
+	section {
+		width: 80%;
+	}
+}
